@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Marcas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .product h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .product p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Loja de Marcas</h1>
+        <div id="product-list"></div>
+    </div>
+
+    <script>
+        const products = [
+            { brand: "Nike", type: "Shorts", price: 150 },
+            { brand: "Nike", type: "Boné", price: 80 },
+            { brand: "Adidas", type: "Shorts", price: 140 },
+            { brand: "Adidas", type: "Boné", price: 70 },
+            { brand: "High", type: "Shorts", price: 130 },
+            { brand: "High", type: "Boné", price: 60 }
+        ];
+
+        function displayProducts() {
+            const productList = document.getElementById("product-list");
+            productList.innerHTML = ""; // Limpa a lista
+
+            products.forEach((product) => {
+                const productDiv = document.createElement("div");
+                productDiv.classList.add("product");
+
+                productDiv.innerHTML = `
+                    <h2>${product.brand}</h2>
+                    <p>Tipo: ${product.type}</p>
+                    <p>Preço: R$ ${product.price.toFixed(2)}</p>
+                `;
+
+                productList.appendChild(productDiv);
+            });
+        }
+
+        // Chama a função para exibir os produtos na página
+        displayProducts();
+    </script>
+</body>
+</html>
