@@ -3,76 +3,364 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Marcas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            width: 100%;
-            max-width: 800px;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        .product {
-            border: 1px solid #ddd;
-            margin: 15px;
-            padding: 10px;
-            border-radius: 8px;
-            background-color: #fff;
-        }
-        .product h2 {
-            margin: 0;
-            font-size: 1.5em;
-        }
-        .product p {
-            margin: 8px 0;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ls Imports</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Loja de Marcas</h1>
-        <div id="product-list"></div>
-    </div>
 
-    <script>
-        const products = [
-            { brand: "Nike", type: "Shorts", price: 150 },
-            { brand: "Nike", type: "Boné", price: 80 },
-            { brand: "Adidas", type: "Shorts", price: 140 },
-            { brand: "Adidas", type: "Boné", price: 70 },
-            { brand: "High", type: "Shorts", price: 130 },
-            { brand: "High", type: "Boné", price: 60 }
-        ];
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Ls Imports</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#calçados">Calçados</a></li>
+                <li><a href="#camisetas">Camisetas</a></li>
+                <li><a href="#shorts">Shorts</a></li>
+                <li><a href="#promozinha">Promoçoes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar produtos...">
+            <button>🔍</button>
+        </div>
+    </header>
 
-        function displayProducts() {
-            const productList = document.getElementById("product-list");
-            productList.innerHTML = ""; // Limpa a lista
+    <!-- Seção de Banner -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h2>Estilo, Conforto e Qualidade</h2>
+            <p>Explore as melhores roupas e acessórios para seu estilo!</p>
+            <a href="#calçados" class="btn-primary">Explore Agora</a>
+        </div>
+    </section>
 
-            products.forEach((product) => {
-                const productDiv = document.createElement("div");
-                productDiv.classList.add("product");
+    <!-- Seção Calçados -->
+    <section id="calçados" class="section-products">
+        <h2>Calçados</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="..//ProjetoFinalBK1LMA/imagens/9fb27987-0b86-467f-bc34-aa9a5b5ca81e.jfif" alt="Tênis 1">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 1">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 2">
+                <h3>Tênis Casual</h3>
+                <p>R$ 159,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 3">
+                <h3>Tênis Fashion</h3>
+                <p>R$ 219,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 4">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 5">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 6">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 7">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 8">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 9">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 10">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tênis 10">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            
+        </div>
+    </section>
 
-                productDiv.innerHTML = `
-                    <h2>${product.brand}</h2>
-                    <p>Tipo: ${product.type}</p>
-                    <p>Preço: R$ ${product.price.toFixed(2)}</p>
-                `;
+    <!-- Seção Camisetas -->
+    <section id="camisetas" class="section-products">
+        <h2>Camisetas</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 1">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 2">
+                <h3>Camiseta Estampada</h3>
+                <p>R$ 69,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 3">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 4">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 5">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 6">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 7">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 8">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 9">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 10">
+                <h3>Camiseta Básica</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 11">
+                <h3>Camiseta de time</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Camiseta 12">
+                <h3>Camiseta de time</h3>
+                <p>R$ 49,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+        </div>
+    </section>
 
-                productList.appendChild(productDiv);
-            });
-        }
+    <!-- Seção Shorts -->
+    <section id="shorts" class="section-products">
+        <h2>Shorts</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 1">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 2">
+                <h3>Short Sport</h3>
+                <p>R$ 59,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 3">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 4">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 5">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 6">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 7">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 8">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 9">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 10">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 11">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Short 12">
+                <h3>Short Jeans</h3>
+                <p>R$ 79,99</p>
+                <a href="#" class="btn-buy">Comprar</a>
+            </div>
+            </div>
+        </div>
+    </section>
 
-        // Chama a função para exibir os produtos na página
-        displayProducts();
-    </script>
+        <!--Lupas-->
+        <section id="Lupas" class="section-products">
+            <h2>Lupas</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="..//ProjetoFinalBK1LMA/imagens/lupas_coloridas.jfif" alt="Promoção">
+                    <h3>Lupa Oakley Coloridas</h3>
+                    <p>R$ 100,00</p>
+                    <a href="#" class="btn-buy">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="..//ProjetoFinalBK1LMA/imagens/lupas_descanso.jfif" alt="Promoção">
+                    <h3>Lupa Oakley de Descanso</h3>
+                    <p>R$ 100,00</p>
+                    <a href="#" class="btn-buy">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="..//ProjetoFinalBK1LMA/imagens/lupas_ciclismo.jfif" alt="Promoção">
+                    <h3>Lupa Oakley Ciclismo</h3>
+                    <p>R$ 100,00</p>
+                    <a href="#" class="btn-buy">Comprar</a>
+                </div>
+            </div>
+
+
+        <!--Promoção-->
+            <section id="Promoção" class="section-products">
+                <h2>Promoção</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Promoção">
+                        <h3>3 tênis por apenas 280!!</h3>
+                        <p>R$ 279,99</p>
+                        <a href="#" class="btn-buy">Comprar</a>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Promoção">
+                        <h3>5 tênis por apenas 370!!</h3>
+                        <p>R$ 369,99</p>
+                        <a href="#" class="btn-buy">Comprar</a>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Promoção">
+                        <h3>3 shorts Dry-Fit por apenas 100!!</h3>
+                        <p>R$ 99,99</p>
+                        <a href="#" class="btn-buy">Comprar</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Promoção">
+                        <h3>5 shorts jeans por apenas 220!!</h3>
+                        <p>R$ 219,99</p>
+                        <a href="#" class="btn-buy">Comprar</a>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Promoção">
+                        <h3>Promoção 3 camisetas por apenas 150!!</h3>
+                        <p>R$ 149,99</p>
+                        <a href="#" class="btn-buy">Comprar</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Promoção">
+                        <h3>Promoção 8 camisetas por apenas 300!!</h3>
+                        <p>R$ 299,99</p>
+                        <a href="#" class="btn-buy">Comprar</a>
+                    </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <div class="footer-content">
+            <p>&copy; 2024 Loja Fashion | Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a> | 
+                <a href="https://www.instagram.com/">Instagram</a> | 
+                <a href="https://gmail.com/" class="text-white">Envie um e-mail</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
