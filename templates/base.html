@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ls Imports</title>
+    <link rel="stylesheet" href="../static/assets/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
-
-
 
     <!-- Cabeçalho -->
     <header>
@@ -31,16 +30,25 @@
             </ul>
         </nav>
         <div class="search-bar">
-            <input type="text" placeholder="Buscar produtos...">
-            <button>🔍</button>
+            <input type="text" id="searchInput" placeholder="Buscar produtos...">
+            <button id="searchButton">🔍</button>
         </div>
         <hr>
         <hr><hr>
-
-    
     </header>
 
-{% block content %}{% endblock %}
+     <!-- Lista de Produtos -->
+     <div id="productList">
+        <div class="product" data-name="Calçados">Calçados</div>
+        <div class="product" data-name="Camiseta Básica">Camiseta Básica</div>
+        <div class="product" data-name="Shorts de Praia">Shorts de Praia</div>
+        <div class="product" data-name="Perfume Floral">Perfume Floral</div>
+        <div class="product" data-name="Lupa de Aumento">Lupa de Aumento</div>
+        <div class="product" data-name="Conjunto de Moletom">Conjunto de Moletom</div>
+        <div class="product" data-name="Tracksuit Fitness">Tracksuit Fitness</div>
+    </div>
+
+    {% block content %}{% endblock %}
 
    <!-- Rodapé -->
    <footer id="contato">
