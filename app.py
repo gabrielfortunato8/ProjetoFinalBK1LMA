@@ -8,5 +8,13 @@ def paginaincial():
     return render_template('index.html')
 
 @app.route('/contato')
-def paginaincial():
+def cantato():
     return render_template('contato.html')
+
+@app.route('/sobre')
+def sobre():
+    return render_template('sobre.html')
+
+@app.route('/produtos')
+def produtos():
+    return render_template('produtos.html')
