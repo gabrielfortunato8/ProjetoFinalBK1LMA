@@ -6,3 +6,7 @@ app.secret_key = 'segredo'  # Para utilizar flash messages
 @app.route('/')
 def paginaincial():
     return render_template('index.html')
+
+@app.route('/contato')
+def paginaincial():
+    return render_template('contato.html')
