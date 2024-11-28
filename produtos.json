@@ -1,0 +1,513 @@
+[
+    {
+        "id": "1",
+        "nome": " Tênis Mizuno Beta ",
+        "preco": 199.99,
+        "imagem": "9fb27987-0b86-467f-bc34-aa9a5b5ca81e.jfif"
+    },
+    {
+        "id": "2",
+        "nome": " Tenis Nike Dunk Low Verniz Black ",
+        "preco": 159.99,
+        "imagem": "tenis_nilke.jfif"
+    },
+    {
+        "id": "3",
+        "nome": " Tênis Adidas Campus Black and White ",
+        "preco": 219.99,
+        "imagem": "tenis_adidas.jfif"
+    },
+    {
+        "id": "4",
+        "nome": " Tênis Mizuno Pro6",
+        "preco": 199.99,
+        "imagem": "mizuno_tenis.jfif"
+    },
+    {
+        "id": "5",
+        "nome": " Tênis Mizuno Pro LS Flor de Lotus ",
+        "preco": 199.99,
+        "imagem": "mizunotenis.jfif"
+    },
+    {
+        "id": "6",
+        "nome": " Tênis Nike Air Max TN Plus Grey and Green ",
+        "preco": 199.99,
+        "imagem": "tenisnike.jfif"
+    },
+    {
+        "id": "7",
+        "nome": " Tênis Air Force Black ",
+        "preco": 199.99,
+        "imagem": "tenis_air_force.jfif"
+    },
+    { 
+        "id": "8", 
+        "nome": " Tênis Adidas Forum Low All White  ", 
+        "preco": 199.99, 
+        "imagem": "adidas_forum.jfif" 
+    }, 
+    { 
+        "id": "9", 
+        "nome": " Tênis Nike Schox R4 Black ", 
+        "preco": 199.99, 
+        "imagem": "tenis_schox.jfifg" 
+    }, 
+    { 
+        "id": "10", 
+        "nome": " Tênis Air Max 97 All White Refletivo ", 
+        "preco": 199.99, 
+        "imagem": "tenis_airmax.jfif" 
+    }, 
+    {
+        "id": "11",
+        "nome": " Tênis Air Jordan 4 Grey ",
+        "preco": 199.99,
+        "imagem": "tenis_jordan.jfif"
+    },
+    {
+        "id": "12",
+        "nome": " Chinelo Nike Asuna ",
+        "preco": 150.00,
+        "imagem": "chinelo_asuna.jfif"
+    },
+    {
+        "id": "13",
+        "nome": " Chinelo Slide Gucci ",
+        "preco": 149.99,
+        "imagem": "chinelo_gucci.jfif"
+    },
+    {
+        "id": "14",
+        "nome": " Chinelo Kenner Cushy ",
+        "preco": 99.99,
+        "imagem": "chinelo_kenner.jfif"
+    },
+    {
+        "id": "15",
+        "nome": " Chinelo Kenner Rakka ",
+        "preco": 99.99,
+        "imagem": "chinelo_kenner_rakka.jfif"
+    },
+    {
+        "id": "16",
+        "nome": "Camiseta de Algodão Boss",
+        "preco": 49.99,
+        "imagem": "blusa_boss.jfif"
+    },
+    {
+        "id": "17",
+        "nome": "Camiseta de Algodão Anti Social Club",
+        "preco": 49.99,
+        "imagem": "blusa_antisocial.jfif"
+    },
+    {
+        "id": "18",
+        "nome": "Camiseta de Algodão Nike Vultur",
+        "preco": 49.99,
+        "imagem": "camisa_nikevilture.jfif"
+    },
+    {
+        "id": "19",
+        "nome": "Camiseta de Algodão High Company Tornado",
+        "preco": 49.99,
+        "imagem": "camisa_high.jfif"
+    },
+    {
+        "id": "20",
+        "nome": "Camiseta de Algodão Nike Sum 1972",
+        "preco": 49.99,
+        "imagem": "camiseta_nike.jfif"
+    },
+    {
+        "id": "21",
+        "nome": "Camiseta de Algodão Nike JUST DO IT",
+        "preco": 49.99,
+        "imagem": "camisa_nike_just.jfif"
+    },
+    {
+        "id": "22",
+        "nome": "Camiseta de Algodão Nike Put The Heat",
+        "preco": 49.99,
+        "imagem": "camisa_nikeput.jfif"
+    },
+    {
+        "id": "23",
+        "nome": "Camiseta de Algodão OFF WHT",
+        "preco": 49.99,
+        "imagem": "camiseta_offwht.jfif"
+    },
+    {
+        "id": "24",
+        "nome": "Camiseta de Algodão Nike Templo Japones",
+        "preco": 49.99,
+        "imagem": "camiseta_japones.jfif"
+    },
+    {
+        "id": "25",
+        "nome": "Camiseta de Algodão Nike Money Duck",
+        "preco": 49.99,
+        "imagem": "camiseta_money.jfif"
+    },
+    {
+        "id": "26",
+        "nome": "Camiseta de Algodão Nike Air",
+        "preco": 49.99,
+        "imagem": "blusa_nikeair.jfif"
+    },
+    {
+        "id": "27",
+        "nome": "Camiseta de Algodão New Era",
+        "preco": 49.99,
+        "imagem": "blusa_newera.jfif"
+    },
+    {
+        "id": "28",
+        "nome": "Camiseta de Algodão Nike Stussy",
+        "preco": 49.99,
+        "imagem": "blusa_stussy.jfif"
+    },
+    {
+        "id": "29",
+        "nome": "Camiseta de de Algodão Nike Nocta",
+        "preco": 49.99,
+        "imagem": "camiseta_nocta.jfif"
+    },
+    {
+        "id": "30",
+        "nome": "Camiseta de Algodão The North Face",
+        "preco": 49.99,
+        "imagem": "blusa_the_north.jfif"
+    },
+    {
+        "id": "31",
+        "nome": "Camiseta Nike Athletics Dri-FIT",
+        "preco": 49.99,
+        "imagem": "blusa_nike.jfif"
+    },
+    {
+        "id": "32",
+        "nome": "Shorts Dri-FIT Nike",
+        "preco": 49.99,
+        "imagem": "short_drifit.jfif"
+    },
+    {
+        "id": "33",
+        "nome": "Shorts Dri-FIT Nike",
+        "preco": 49.99,
+        "imagem": "bermuda drifit.jfif"
+    },
+    {
+        "id": "34",
+        "nome": "Shorts Jeans",
+        "preco": 69.99,
+        "imagem": "short_jeans.jfif"
+    },
+    {
+        "id": "35",
+        "nome": "Short Dri-Fit refletivo Nike",
+        "preco": 39.99,
+        "imagem": "bermuda_nike.jfif"
+    },
+    {
+        "id": "36",
+        "nome": "Short Dri-FIT Adidas",
+        "preco": 49.99,
+        "imagem": "short_drifitadidas.jfif"
+    },
+    {
+        "id": "37",
+        "nome": "Short Elastano LaVíbora",
+        "preco": 34.99,
+        "imagem": "short_lavibora.jfif"
+    },
+    {
+        "id": "38",
+        "nome": "Short Adidas de Futebol",
+        "preco": 29.99,
+        "imagem": "short_adidass.jfif"
+    },
+    {
+        "id": "39",
+        "nome": "Short Elastano Puma",
+        "preco": 34.99,
+        "imagem": "shortpuma.jfif"
+    },
+    {
+        "id": "40",
+        "nome": "Short Puma de Futebol",
+        "preco": 29.99,
+        "imagem": "shortumbro.jfif"
+    },
+    {
+        "id": "41",
+        "nome": "Short Dri-FIT BrooksField",
+        "preco": 49.99,
+        "imagem": "shortbrooksfield.jfif"
+    },
+    {
+        "id": "42",
+        "nome": "Short Elastano Gucci",
+        "preco": 34.99,
+        "imagem": "shortgucci.jfif"
+    },
+    {
+        "id": "43",
+        "nome": "Short Mauricinho",
+        "preco": 34.99,
+        "imagem": "shortmauricinho.jfif"
+    },
+    {
+        "id": "44",
+        "nome": "Perfume Ferrari Black 200ml",
+        "preco": 150.00,
+        "imagem": "perfume_ferrari.jfif"
+    },
+    {
+        "id": "45",
+        "nome": "Perfume Versace Eros Tradicional 200ml""preco": 150.00,
+        "imagem": "perfume_versace.jfif"
+    },
+    {
+        "id": "46",
+        "nome": "Perfume Paco Rabanne One Million 200m",
+        "preco": 150.00,
+        "imagem": "perfume_pacorabanne.jfif"
+    },
+    {
+        "id": "47",
+        "nome": "Perfume 212 Black 200ml",
+        "preco": 150.00,
+        "imagem": "perfume_212_black.jfif"
+    }
+    {
+        "id": "48",
+        "nome": "Perfume Hugo Boss Bottled Night 200ml",
+        "preco": 150.00,
+        "imagem": "perfume_boss.jfif"
+    }
+
+    {
+        "id": "49",
+        "nome": "Perfume Dior Sauvage 200ml",
+        "preco": 150.00,
+        "imagem": "perfume_suavage.jfif"
+    }
+
+    {
+        "id": "50",
+        "nome": "Perfume Malbec Black 200ml",
+        "preco": 150.00,
+        "imagem": "perfume_malbec.jfif"
+    }
+
+    {
+        "id": "51",
+        "nome": "Perfume Carolina Herrera Bad Boy 200ml",
+        "preco": 150.00,
+        "imagem": "perfume_carolina_herrera.jfif"
+    }
+    {
+        "id": "52",
+        "nome": "Lupa Oakley Colorida",
+        "preco": 150.00,
+        "imagem": "lupas_coloridas.jfif"
+    },
+    {
+        "id": "53",
+        "nome": "Lupa Oakley de Descanso""preco": 150.00,
+        "imagem": "lupas_descanso.jfif"
+    },
+    {
+        "id": "54",
+        "nome": "Lupa Oakley Ciclismo",
+        "preco": 150.00,
+        "imagem": "lupas_ciclismo.jfif"
+    },
+    {
+        "id": "55",
+        "nome": "Conjunto Emporio Armani",
+        "preco": 99.99,
+        "imagem": "conjunto_emporio.jfif"
+    },
+    {
+        "id": "56",
+        "nome": "Conjunto Oakley",
+        "preco": 79.99,
+        "imagem": "conjunto_oakley.jfif"
+    },
+    {
+        "id": "57",
+        "nome": "Conjunto Adidas",
+        "preco": 79.99,
+        "imagem": "conjunto_aridas.jfif"
+    },
+    {
+        "id": "58",
+        "nome": "Conjunto Nike",
+        "preco": 79.99,
+        "imagem": "nike_conjunto.jfif"
+    },
+    {
+        "id": "59",
+        "nome": "Conjunto Nike da França",
+        "preco": 79.99,
+        "imagem": "conjunto_frança.jfif"
+    },
+    {
+        "id": "60",
+        "nome": "Conjunto Nike Básico Preto",
+        "preco": 79.99,
+        "imagem": "conjunto_basiconike.jfif"
+    }
+    {
+        "id": "61",
+        "nome": "Conjunto Adidas Esporte",
+        "preco": 79.99,
+        "imagem": "conjunto_fut_adidas.jfif"
+    }
+    {
+        "id": "62",
+        "nome": "Conjunto Nike Básico Branco",
+        "preco": 79.99,
+        "imagem": "conjunto_nikebranco.jfif"
+    }
+    {
+        "id": "63",
+        "nome": "Conjunto Mizuno Dri-FIT",
+        "preco": 79.99,
+        "imagem": "conjunto_mizuno.jfif"
+    }
+    {
+        "id": "64",
+        "nome": "Conjunto Hugo Boss",
+        "preco": 79.99,
+        "imagem": "conjunto boss.jfif"
+    }
+    {
+        "id": "65",
+        "nome": "Conjunto Lacoste",
+        "preco": 79.99,
+        "imagem": "conjunto_lacoste.jfif"
+    }
+    {
+        "id": "66",
+        "nome": "Conjunto Lacoste",
+        "preco": 79.99,
+        "imagem": "conjunto_lacostee.jfif"
+    },
+    {
+        "id": "67",
+        "nome": "Tracksuit Roma",
+        "preco": 150.00,
+        "imagem": "conjunto_roma.jfif"
+    },
+    {
+        "id": "68",
+        "nome": "Tracksuit Barcelona",
+        "preco": 150.00,
+        "imagem": "conjunto_barcelon.jfif"
+    },
+    {
+        "id": "69",
+        "nome": "Tracksuit Manchester United",
+        "preco": 150.00,
+        "imagem": "conjnto_manchester.jfif"
+    },
+    {
+        "id": "70",
+        "nome": "Tracksuit PSG",
+        "preco": 150.00,
+        "imagem": "conjunto_psg.jfif"
+    },
+    {
+        "id": "71",
+        "nome": "Tracksuit Arsenal",
+        "preco": 150.00,
+        "imagem": "conjunto_arsenal.jfif"
+    },
+    {
+        "id": "72",
+        "nome": "Tracksuit Borussia Dortmund",
+        "preco": 150.00,
+        "imagem": "conjunto_borussia.jfif"
+    },
+    {
+        "id": "73",
+        "nome": "Tracksuit Real Madrid",
+        "preco": 150.00,
+        "imagem": "conjunto_real.jfif"
+    },
+    {
+        "id": "74",
+        "nome": "Tracksuit Manchester City",
+        "preco": 150.00,
+        "imagem": "conjunto_city.jfif"
+    },
+    {
+        "id": "75",
+        "nome": "Tracksuit Brasil",
+        "preco": 150.00,
+        "imagem": "conjunto_brasil.jfif"
+    },
+    {
+        "id": "76",
+        "nome": "Tracksuit Itália",
+        "preco": 150.00,
+        "imagem": "tracksuit_italia.jfif"
+    },
+    {
+        "id": "77",
+        "nome": "Tracksuit Alemanha",
+        "preco": 150.00,
+        "imagem": "conjunto_alemanha.jfif"
+    },
+    {
+        "id": "78",
+        "nome": "Tracksuit Argentina",
+        "preco": 150.00,
+        "imagem": "tracksuit_argentina.jfif"
+    },
+    {
+        "id": "79",
+        "nome": "Monte seu KIT por apenas 300!!",
+        "preco": 299.99,
+        "imagem": "promoçãoo.jfif"
+    },
+    {
+        "id": "80",
+        "nome": "Monte seu KIT por apenas 300!!",
+        "preco": 299.00,
+        "imagem": "promoçãozinha.jfif"
+    },
+    {
+        "id": "81",
+        "nome": "Monte seu KIT por apenas 300!!",
+        "preco": 299.99,
+        "imagem": "conjunto_comchinelo.jfif"
+    },
+    {
+        "id": "82",
+        "nome": "Monte seu KIT por apenas 300!!",
+        "preco": 299.99,
+        "imagem": "promoção_quiksilver.jfif"
+    },
+    {
+        "id": "83",
+        "nome": "Monte seu KIT por apenas 300!!",
+        "preco": 299.99,
+        "imagem": "promoção_chelesea.jfif"
+    },
+    {
+        "id": "84",
+        "nome": "Promoção 3 camisetas regatas de diferentes marcas por apenas 60!!",
+        "preco": 59.99,
+        "imagem": "promoção_blusacavada.jfif"
+    }
+    {
+        "id": "85",
+        "nome": "Promoção 10 camisetas de diferentes marcas por apenas 300!!",
+        "preco": 299.99,
+        "imagem": "blusa_10 uni.jfif"
+    }
+]

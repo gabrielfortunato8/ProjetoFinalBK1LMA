@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .modal-content {
+            position: relative;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            width: 50%;
+            top: 25%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="purchaseModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Compra Efetuada com Sucesso!</h2>
+            <p>Por favor, escolha a forma de pagamento:</p>
+            <button onclick="selectPayment('Cartão de Crédito')">Cartão de Crédito</button>
+            <button onclick="selectPayment('Boleto')">Boleto</button>
+            <button onclick="selectPayment('PayPal')">PayPal</button>
+        </div>
+    </div>
+
+    <script>
+        // Exibe o modal automaticamente quando a página carrega
+        window.onload = function() {
+            openModal();
+        };
+
+        function openModal() {
+            document.getElementById("purchaseModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("purchaseModal").style.display = "none";
+        }
+
+        function selectPayment(method) {
+            alert("Você selecionou " + method + " como forma de pagamento.");
+            closeModal();
+        }
+    </script>
+</body>
+</html>
