@@ -1,15 +1,66 @@
 from flask import (Flask, flash, redirect, render_template, request, url_for) # importa o flask
+import json
+import os
 
 app = Flask(__name__) # cria uma instância
 app.secret_key = 'segredo'  # Para utilizar flash messages
+
+CONTATOS_FILE = "contatos.json"
+PRODUTOS_FILE = "produtos.json"
+
+def save_contato_to_file(data):
+    if os.path.exists(CONTATOS_FILE):
+        with open(CONTATOS_FILE, "r") as file:
+            contatos = json.load(file)
+    else:
+        contatos = []
+
+    contatos.append(data)
+
+    with open(CONTATOS_FILE, "w") as file:
+        json.dump(contatos, file, indent=4)
+
+def save_compra_to_file(data):
+    if os.path.exists(PRODUTOS_FILE):
+        with open(PRODUTOS_FILE, "r") as file:
+            try:
+                compras = json.load(file)
+            except json.JSONDecodeError:
+                contatos = []  # Inicializa como uma lista vazia se houver erro
+    else:
+        compras = []
+
+    compras.append(data)
+
+    with open(PRODUTOS_FILE, "w") as file:
+        json.dump(compras, file, indent=4)
 
 @app.route('/')
 def paginaincial():
     return render_template('index.html')
 
-@app.route('/contato')
-def cantato():
-    return render_template('contato.html')
+# Rota para o formulário de contato
+@app.route('/contato', methods=['GET', 'POST'])
+def contato():
+    feedback = None
+    if request.method == 'POST':
+        nome = request.form['nome']
+        email = request.form['email']
+        mensagem = request.form['mensagem']
+
+        # Criando o dicionário com os dados do contato
+        contato_data = {
+            'nome': nome,
+            'email': email,
+            'mensagem': mensagem
+        }
+
+        # Salvando os dados no arquivo JSON
+        save_contato_to_file(contato_data)
+
+        feedback = "Agradecemos por seu feedback. Fique de olho em seu email que logo entraremos em contato!"
+    
+    return render_template('contato.html', feedback=feedback)
 
 @app.route('/produtos')
 def produtos():
